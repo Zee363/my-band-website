@@ -1,0 +1,147 @@
+.img-container {
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  width: 97%;
+  height: 99vh;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+h2 {
+  position: absolute !important;
+  background-color: whitesmoke !important;
+  top: 320px;
+  left: 25px;
+}
+
+h3 {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.img-container h1 {
+  position: absolute;
+  background-color: whitesmoke;
+  top: 371px;
+  left: 120px;
+}
+
+.debut-album-img {
+  width: 40%;
+  height: 59vh;
+  margin-right: 20px;
+}
+
+.disc-h1, .snippets-h1, .snippets-h3 {
+  font-family: "Playfair Display", sans-serif;
+}
+
+button {
+  border-radius: 14px ;
+  display: block;
+  margin: 0 auto;
+  font-size: medium;
+  padding: 7px 9px;
+  background-color: darkseagreen;
+  color: white;
+}
+
+.disco-container .disc-h1 {
+  text-align: center;
+}
+
+.disco-container, .events-container {
+  background-color: darkseagreen;
+  padding: 28px 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.snippet-container {
+  background-color: darkseagreen;
+  border-radius: 6px;
+}
+
+.snippets-h1 {
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.events-container, .events-h1, p {
+  text-align: center;
+}
+
+.events-h1 {
+  font-family: "Playfair Display", sans-serif;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 110px 20px;
+  margin-left: 200px;
+}
+
+td {
+  padding: 35px;
+} 
+
+.profile-container {
+  background-color: darkseagreen;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile-image {
+  border-radius: 25px;
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+ .profile-h1 {
+  margin-left: 180px;
+  font-family: "Playfair Display", sans-serif;
+ }
+#profile-h3 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: "Playfair Display", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: blue;
+}
